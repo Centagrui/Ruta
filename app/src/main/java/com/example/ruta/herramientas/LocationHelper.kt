@@ -29,6 +29,7 @@ class LocationHelper(private val context: Context) {
             } else {
                 null
             }
+
         } catch (e: SecurityException) {
             // Manejamos la excepción en caso de que el permiso sea revocado
             null
